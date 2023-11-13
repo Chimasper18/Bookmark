@@ -15,16 +15,21 @@
         <div>
             <a href="/"><img src="/images/logo-bookmark.svg" alt=""></a>
         </div>
-        <div>
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
+        <div class="icons">
+            <i class="ri-menu-line"></i>
+            <i class="ri-close-line"></i>
+        </div>
+        
+        
+            <ul class="position">
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
             <button>LOGIN</button>
-        </div>
+        
     </nav>
-    <main>        
+    <main id="Features">        
         <div>
             <h1>A simple Bookmark Manager</h1>
             <p>
@@ -50,7 +55,7 @@
             <div>
                 <button class="clickbutton">Simple bookmarking</button>
                 <div>
-                    <img src="/images/illustration-features-tab-1.svg" alt="">
+                    <img class="unique" src="/images/illustration-features-tab-1.svg" alt="">
                     <div class="middiv">
                         <h2>Bookmark in one click</h2>
                         <p>
@@ -63,7 +68,7 @@
             <div>
                 <button class="clickbutton">Speedy Searching</button>
                 <div>
-                    <img src="/images/illustration-features-tab-2.svg" alt="">
+                    <img class="unique" src="/images/illustration-features-tab-2.svg" alt="">
                     <div class="middiv">
                         <h2>Bookmark in one click</h2>
                         <p>
@@ -76,7 +81,7 @@
             <div>
                 <button class="clickbutton">Easy Sharing</button>
                 <div>
-                    <img src="/images/illustration-features-tab-3.svg" alt="">
+                    <img class="unique" src="/images/illustration-features-tab-3.svg" alt="">
                     <div class="middiv">
                         <h2>Bookmark in one click</h2>
                         <p>
@@ -89,7 +94,7 @@
         </div>
     </section>
 
-    <section class="section2">
+    <section class="section2" id="Pricing">
         <div class="centerdiv2">
             <h1>Download the extension</h1>
             <p>
@@ -119,7 +124,7 @@
     </section>
 
     <section class="section3">
-        <div>
+        <div class="centerdiv3">
             <h2>Frequently Asked Questions</h2>
             <p class="para">
                 Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us. 
@@ -163,7 +168,7 @@
         </div>
     </section>
     
-    <footer>
+    <footer id="Contact">
         <a href="/"><img src="/images/logo-bookmark.svg" alt=""></a>
         <ul>
             <li><a href="#">FEATURES</a></li>
@@ -175,5 +180,7 @@
             <i class="ri-twitter-fill"></i>            
         </div>
     </footer>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
